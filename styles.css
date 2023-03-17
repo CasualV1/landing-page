@@ -28,3 +28,40 @@ ul {
     color: #F9FAF8;
 }
 
+.hero-main {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 600px;
+}
+
+.bold-main {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.sign-up-one {
+    background-color: #3882f6;
+    border-color: #3882f6;
+    font-weight: 800;
+    color: #F9FAF8;
+    width: 110px;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 8px;
+}
