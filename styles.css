@@ -117,3 +117,28 @@ img {
     flex-wrap: wrap;
     margin-right: 50px;
 }
+
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding-bottom: 50px;
+}
+
+.thor-quote { 
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.paragraph {
+    font-size: 36px;
+}
