@@ -65,3 +65,55 @@ img {
     padding: 6px;
     border-radius: 8px;
 }
+
+.random-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.bold-title {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1f2937;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.box-one, .box-two,
+.box-three, .box-four {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    font-size: 0;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+.box-one-text,
+.box-two-text,
+.box-three-text,
+.box-four-text {
+    padding-top: 5px;
+}
+
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
